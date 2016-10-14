@@ -1,0 +1,23 @@
+{
+  "name": "curried.js",
+  "version": "1.0.0",
+  "description": "curried takes as an argument function which execution will be delayed till it will have enough arguments to execute",
+  "main": "tests.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --compilers js:babel-core/register"
+  },
+  "keywords": [
+    "curried",
+    "curried.js"
+  ],
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.16.0",
+    "babel-core": "^6.17.0",
+    "babel-preset-es2015": "^6.16.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
